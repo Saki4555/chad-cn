@@ -66,7 +66,7 @@ const items = [
 
 const AppSidebar = () => {
   return (
-    <Sidebar collapsible="icon">
+    <Sidebar collapsible="icon"  className="transition-[width] duration-300 overflow-hidden">
       <SidebarHeader className="py-2.5">
         <SidebarMenu>
           <SidebarMenuItem>
